@@ -1,0 +1,241 @@
+.left,.right{
+  display: inline-block;
+/*   border: solid 2px black; */
+  box-sizing: border-box;
+  vertical-align: top;
+}
+html, body{
+  padding: 0px;
+  margin: 0px;
+  background-color:#000 ;
+  color: #FFF;
+}
+img{
+  position: relative;
+/*   border: solid 1px; */
+  width: 45%;
+  left: 110px;
+  top: 30px;
+  margin-bottom: 30px;
+}
+.left{
+  width: 30%;
+  height: 1300px;
+  margin-left: 170px;
+}
+.right{
+  width: 40%;
+  height: 1300px;
+  margin-left: 100px;
+}
+.up_name{
+/*   border: solid 1px; */
+  font-size: 45px;
+  letter-spacing: 2px;
+  font-family: Helvetica;
+  font-weight: 900;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: px;
+}
+.up_engname{
+  font-size: 25px;
+  letter-spacing: 1px;
+}
+.GG{
+  width: 100%;
+  font-family: Helvetica;
+ font-size: 15px;
+}
+
+.contact,.contact_email,.contact_phone{
+/*   border: solid 1px; */
+  width: 100%;
+  font-family: Helvetica;
+}
+.contact{
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+.contact_email,.contact_phone{
+  position: relative;
+  line-height: 25px;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.contact_email{
+  left:110px;
+}
+.contact_phone{
+  left: 60px;
+}
+.chinese,.english{
+  font-size: 18px;
+  font-family: Helvetica;
+  margin-top: 20px;
+  margin-left: 60px;
+}
+/*  技能表設定 (外) */
+.chi_abilityouter{
+  border: solid 2px;
+  border-radius: 11px;
+  width: 300px;
+  height: 20px;
+  margin-left: 60px;
+  margin-top: 5px;
+}
+/*  技能表設定 (內) */
+.chi_abilityinner{
+  border: solid 2px;
+  background-color: #FFE066;
+  border-radius: 9px;
+  width: 290px;
+  height: 12px;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+.eng_abilityinner{
+  border: solid 2px;
+  background-color: #FFE066;
+  border-radius: 11px;
+  width: 180px;
+  height: 12px;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+.jp_abilityinner{
+  border: solid 2px;
+  background-color: #FFE066;
+  border-radius: 11px;
+  width: 270px;
+  height: 12px;
+  margin-top: 2px;
+  margin-left: 3px;
+}
+
+.skill_number,.eng_number{
+  font-family: Helvetica;
+  font-size: 15px;
+  text-align: right;
+  margin-right: 45px;
+  margin-top: 8px;
+}
+
+.skillbox{
+  box-sizing: border-box;
+  width:100%;
+  margin: 20px 0;
+}
+.skillbox p{
+  color: #fff;
+  text-transform: uppercase;
+  margin: 0 10 10px;
+  padding: 0
+  font-weight:bold;
+  letter-spacing: 1px;
+}
+.skillbox p:nth-child(2)
+{
+  float: right;
+  position: relative;
+  top:-34px;
+}
+
+.skill{
+  background-repeat: #262626;
+  padding: 4px;
+  box-sizing: border-box;
+  border: 1px solid #0fffb7;
+  border-radius: 2px;
+
+}
+.skill_level
+{
+  background: #0fffb7;
+  width: 100%;
+  height: 20px;
+}
+
+/*  經歷  */
+.decoration ul {
+  list-style: none;
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  padding: 1px 100px;
+  color: #fff;
+  font-size: 13px;
+}
+.decoration ul:before {
+  content: '';
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  border-left: 2px dashed #fff;
+
+}
+.decoration ul li {
+  position: relative;
+  margin-left: 30px ;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 14px;
+  border-radius: 6px;
+  width: 250px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .12), 0 2px 2px rgba(0, 0, 0, .08)
+}
+.decoration ul li:not(:first-child) {
+  margin-top: 60px;
+}
+.decoration ul li > span {
+  width: 2px;
+  height: 100%;
+  background: #fff;
+  left: -30px;
+  top: 0;
+  position: absolute;
+}
+.decoration ul li > span:before, .decoration ul li > span:after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  position: absolute;
+  background: #86b7e7;
+  left: -5px;
+  top: 0;
+}
+.decoration ul li span:after {
+  top: 100%;
+}
+.decoration ul li > div {
+  margin-left: 10px;  
+}
+.decoration div .title, .decoration div .type {
+  font-weight: 600;
+  font-size: 18px;
+}
+.decoration div .info {
+  font-weight: 200;
+}
+.decoration div > div {
+  margin-top: 8px;
+}
+.decoration span.number {
+  height: 100%;
+}
+.decoration span.number span {
+  position: absolute;
+  font-size: 10px;
+  left: -35px;
+  font-weight: bold;
+}
+.decoration span.number span:first-child {
+  top: 0;
+}
+.decoration span.number span:last-child {
+  top: 100%;
+}
